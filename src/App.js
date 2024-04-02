@@ -1,13 +1,17 @@
 
 import './App.css';
-import { Button, Spinner, } from 'react-bootstrap';
+
+import GridCard from './components/GridCard';
+import NavTop from './components/NavTop';
+
 
 function App() {
   return (
-    <div className="App">
-      <button>Default Button</button>
-      <Button variant='info text-white'> React Button </Button>
-      <Spinner variant='danger'></Spinner>
+    <div className="App w-75 mx-auto">
+    <NavTop></NavTop>
+    <GridCard></GridCard>
+
+   
     </div>
   );
 }
